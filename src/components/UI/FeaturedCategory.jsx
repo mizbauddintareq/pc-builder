@@ -13,8 +13,8 @@ const categories = [
 const FeaturedCategory = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-      {categories.map((category) => (
-        <Link key={category.slug} href={`catagories/${category.slug}`}>
+      {categories.map((category, idx) => (
+        <Link key={idx} href={`catagories/${category.slug}`}>
           <div className="card shadow-xl">
             <div className="card-body">
               <h2 className="card-title">{category.title}</h2>

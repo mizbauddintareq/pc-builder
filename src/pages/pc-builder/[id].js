@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-const CategoryPage = ({ data }) => {
+const BuildProductPage = ({ data }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {data?.map((product, idx) => (
@@ -17,9 +15,7 @@ const CategoryPage = ({ data }) => {
             <p>{product?.average_rating}</p>
 
             <div className="card-actions justify-end">
-              <Link href={`/product/${product?._id}`}>
-                <button className="btn btn-primary">readmore</button>
-              </Link>
+              <button className="btn btn-primary">Add To Builder</button>
             </div>
           </div>
         </div>
@@ -28,28 +24,10 @@ const CategoryPage = ({ data }) => {
   );
 };
 
-export default CategoryPage;
+export default BuildProductPage;
 
-export const getStaticPaths = async () => {
-  const res = await fetch(`http://localhost:5000/catagories`);
-  const data = await res.json();
-
-  const paths = data?.data?.map((product) => ({
-    params: {
-      categoryId: product.category,
-    },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
-};
-
-export const getStaticProps = async ({ params }) => {
-  const res = await fetch(
-    `http://localhost:5000/catagories/${params.categoryId}`
-  );
+export const getServerSideProps = async ({ params }) => {
+  const res = await fetch(`http://localhost:5000/catagories/${params.id}`);
   const data = await res.json();
 
   return {
