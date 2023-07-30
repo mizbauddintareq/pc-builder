@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const PcBuilderPage = ({ data }) => {
+  const { components } = useSelector((state) => state.product);
+  console.log(components, "from builder");
+
   return (
     <div>
       <div className="overflow-x-auto">

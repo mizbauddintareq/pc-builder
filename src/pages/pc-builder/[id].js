@@ -1,4 +1,13 @@
+import { addItem } from "@/redux/features/cart/cartSlice";
+import { useDispatch } from "react-redux";
+
 const BuildProductPage = ({ data }) => {
+  const dispatch = useDispatch();
+
+  const handleAddToBuilder = (product) => {
+    dispatch(addItem(product));
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {data?.map((product, idx) => (
@@ -15,7 +24,12 @@ const BuildProductPage = ({ data }) => {
             <p>{product?.average_rating}</p>
 
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Add To Builder</button>
+              <button
+                onClick={() => handleAddToBuilder(product)}
+                className="btn btn-primary"
+              >
+                Add To Builder
+              </button>
             </div>
           </div>
         </div>
