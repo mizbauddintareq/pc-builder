@@ -1,796 +1,794 @@
-{
-  "products": [
-    {
-      "image": "/images/processor-1.jpg",
-      "product_name": "Processor XYZ",
-      "category": "Processor",
-      "status": "In Stock",
-      "price": "$299.99",
-      "description": "Powerful processor for high-performance computing. Features 8 cores, 3.5 GHz clock speed, LGA1200 socket, and 16 MB cache. Suitable for heavy workloads and gaming.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "XYZ123",
-        "core_count": 8,
-        "clock_speed": "3.5 GHz",
-        "socket_type": "LGA1200",
-        "cache": "16 MB",
-        "power_consumption": "95W"
-      },
-      "individual_rating": 4.2,
-      "average_rating": 4.3,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Fast and reliable processor.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Great for gaming and multitasking.",
-          "date": "2023-07-20"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Handles heavy workloads well.",
-          "date": "2023-07-22"
-        }
-      ]
+[
+  {
+    "image": "/images/processor-1.jpg",
+    "product_name": "Processor XYZ",
+    "category": "processor",
+    "status": "In Stock",
+    "price": "$299.99",
+    "description": "Powerful processor for high-performance computing. Features 8 cores, 3.5 GHz clock speed, LGA1200 socket, and 16 MB cache. Suitable for heavy workloads and gaming.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "XYZ123",
+      "core_count": 8,
+      "clock_speed": "3.5 GHz",
+      "socket_type": "LGA1200",
+      "cache": "16 MB",
+      "power_consumption": "95W"
     },
-    {
-      "image": "/images/processor-2.jpg",
-      "product_name": "Processor ABC",
-      "category": "Processor",
-      "status": "Out of stock",
-      "price": "$249.99",
-      "description": "Efficient processor for everyday computing. Features 6 cores, 3.2 GHz clock speed, AM4 socket, and 12 MB cache. Suitable for home and office use.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "ABC789",
-        "core_count": 6,
-        "clock_speed": "3.2 GHz",
-        "socket_type": "AM4",
-        "cache": "12 MB",
-        "power_consumption": "65W"
+    "individual_rating": 4.2,
+    "average_rating": 4.3,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Fast and reliable processor.",
+        "date": "2023-07-15"
       },
-      "individual_rating": 4.0,
-      "average_rating": 3.9,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Reliable processor for everyday tasks.",
-          "date": "2023-07-12"
-        },
-        {
-          "user": "user2",
-          "rating": 3,
-          "comment": "Decent performance but not ideal for gaming.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Perfect for office use.",
-          "date": "2023-07-21"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Great for gaming and multitasking.",
+        "date": "2023-07-20"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Handles heavy workloads well.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/processor-2.jpg",
+    "product_name": "Processor ABC",
+    "category": "processor",
+    "status": "Out of stock",
+    "price": "$249.99",
+    "description": "Efficient processor for everyday computing. Features 6 cores, 3.2 GHz clock speed, AM4 socket, and 12 MB cache. Suitable for home and office use.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "ABC789",
+      "core_count": 6,
+      "clock_speed": "3.2 GHz",
+      "socket_type": "AM4",
+      "cache": "12 MB",
+      "power_consumption": "65W"
     },
-    {
-      "image": "/images/processor-3.webp",
-      "product_name": "Processor ZEN",
-      "category": "Processor",
-      "status": "In Stock",
-      "price": "$379.99",
-      "description": "High-end processor for professional workstations. Features 12 cores, 4.0 GHz clock speed, TR4 socket, and 24 MB cache. Ideal for content creation and 3D rendering.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "ZEN2023",
-        "core_count": 12,
-        "clock_speed": "4.0 GHz",
-        "socket_type": "TR4",
-        "cache": "24 MB",
-        "power_consumption": "150W"
+    "individual_rating": 4.0,
+    "average_rating": 3.9,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Reliable processor for everyday tasks.",
+        "date": "2023-07-12"
       },
-      "individual_rating": 4.5,
-      "average_rating": 4.7,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Exceptional performance for professional tasks.",
-          "date": "2023-07-05"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Runs smoothly even under heavy workloads.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Best processor I've ever used.",
-          "date": "2023-07-15"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 3,
+        "comment": "Decent performance but not ideal for gaming.",
+        "date": "2023-07-18"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Perfect for office use.",
+        "date": "2023-07-21"
+      }
+    ]
+  },
+  {
+    "image": "/images/processor-3.webp",
+    "product_name": "Processor ZEN",
+    "category": "processor",
+    "status": "In Stock",
+    "price": "$379.99",
+    "description": "High-end processor for professional workstations. Features 12 cores, 4.0 GHz clock speed, TR4 socket, and 24 MB cache. Ideal for content creation and 3D rendering.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "ZEN2023",
+      "core_count": 12,
+      "clock_speed": "4.0 GHz",
+      "socket_type": "TR4",
+      "cache": "24 MB",
+      "power_consumption": "150W"
     },
-    {
-      "image": "/images/motherboard-1.jpg",
-      "product_name": "Motherboard ABC",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": "$159.99",
-      "description": "High-quality motherboard for gaming PCs. Features AM4 socket, ATX form factor, 4 memory slots, and supports up to 64GB RAM. Equipped with USB 3.2, HDMI, DisplayPort, Ethernet, Wi-Fi 6, and Bluetooth 5.0.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "ABC456",
-        "socket_type": "AM4",
-        "form_factor": "ATX",
-        "memory_slots": 4,
-        "max_memory": "64GB",
-        "ports": "USB 3.2, HDMI, DisplayPort",
-        "connectivity": "Ethernet, Wi-Fi 6, Bluetooth 5.0"
+    "individual_rating": 4.5,
+    "average_rating": 4.7,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Exceptional performance for professional tasks.",
+        "date": "2023-07-05"
       },
-      "individual_rating": 4.2,
-      "average_rating": 4.3,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Feature-rich and easy to install.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Solid performance, great value.",
-          "date": "2023-07-23"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "BIOS could be more user-friendly.",
-          "date": "2023-07-25"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Runs smoothly even under heavy workloads.",
+        "date": "2023-07-10"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Best processor I've ever used.",
+        "date": "2023-07-15"
+      }
+    ]
+  },
+  {
+    "image": "/images/motherboard-1.jpg",
+    "product_name": "Motherboard ABC",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": "$159.99",
+    "description": "High-quality motherboard for gaming PCs. Features AM4 socket, ATX form factor, 4 memory slots, and supports up to 64GB RAM. Equipped with USB 3.2, HDMI, DisplayPort, Ethernet, Wi-Fi 6, and Bluetooth 5.0.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "ABC456",
+      "socket_type": "AM4",
+      "form_factor": "ATX",
+      "memory_slots": 4,
+      "max_memory": "64GB",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "connectivity": "Ethernet, Wi-Fi 6, Bluetooth 5.0"
     },
-    {
-      "image": "/images/motherboard-2.jpg",
-      "product_name": "Motherboard XYZ",
-      "category": "Motherboard",
-      "status": "In Stock",
-      "price": "$199.99",
-      "description": "High-performance motherboard for gaming enthusiasts. Features LGA1200 socket, micro-ATX form factor, 2 memory slots, and supports up to 32GB RAM. Equipped with USB 3.2, HDMI, and Gigabit Ethernet.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "XYZ789",
-        "socket_type": "LGA1200",
-        "form_factor": "micro-ATX",
-        "memory_slots": 2,
-        "max_memory": "32GB",
-        "ports": "USB 3.2, HDMI",
-        "connectivity": "Gigabit Ethernet"
+    "individual_rating": 4.2,
+    "average_rating": 4.3,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Feature-rich and easy to install.",
+        "date": "2023-07-18"
       },
-      "individual_rating": 4.4,
-      "average_rating": 4.6,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Perfect for my compact gaming build.",
-          "date": "2023-07-13"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Fast and reliable motherboard.",
-          "date": "2023-07-17"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Great features, easy setup.",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Solid performance, great value.",
+        "date": "2023-07-23"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "BIOS could be more user-friendly.",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "image": "/images/motherboard-2.jpg",
+    "product_name": "Motherboard XYZ",
+    "category": "motherboard",
+    "status": "In Stock",
+    "price": "$199.99",
+    "description": "High-performance motherboard for gaming enthusiasts. Features LGA1200 socket, micro-ATX form factor, 2 memory slots, and supports up to 32GB RAM. Equipped with USB 3.2, HDMI, and Gigabit Ethernet.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "XYZ789",
+      "socket_type": "LGA1200",
+      "form_factor": "micro-ATX",
+      "memory_slots": 2,
+      "max_memory": "32GB",
+      "ports": "USB 3.2, HDMI",
+      "connectivity": "Gigabit Ethernet"
     },
-    {
-      "image": "/images/motherboard-3.jpg",
-      "product_name": "Motherboard ZEN",
-      "category": "Motherboard",
-      "status": "Out of stock",
-      "price": "$219.99",
-      "description": "Premium motherboard for high-end PCs. Features TR4 socket, ATX form factor, 8 memory slots, and supports up to 128GB RAM. Equipped with USB 3.2, HDMI, DisplayPort, and Intel Wi-Fi 6.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "ZEN2023",
-        "socket_type": "TR4",
-        "form_factor": "ATX",
-        "memory_slots": 8,
-        "max_memory": "128GB",
-        "ports": "USB 3.2, HDMI, DisplayPort",
-        "connectivity": "Intel Wi-Fi 6"
+    "individual_rating": 4.4,
+    "average_rating": 4.6,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Perfect for my compact gaming build.",
+        "date": "2023-07-13"
       },
-      "individual_rating": 4.8,
-      "average_rating": 4.9,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Top-notch performance and stability.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Excellent build quality and features.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Worth the price for enthusiasts.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Fast and reliable motherboard.",
+        "date": "2023-07-17"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Great features, easy setup.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/motherboard-3.jpg",
+    "product_name": "Motherboard ZEN",
+    "category": "motherboard",
+    "status": "Out of stock",
+    "price": "$219.99",
+    "description": "Premium motherboard for high-end PCs. Features TR4 socket, ATX form factor, 8 memory slots, and supports up to 128GB RAM. Equipped with USB 3.2, HDMI, DisplayPort, and Intel Wi-Fi 6.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "ZEN2023",
+      "socket_type": "TR4",
+      "form_factor": "ATX",
+      "memory_slots": 8,
+      "max_memory": "128GB",
+      "ports": "USB 3.2, HDMI, DisplayPort",
+      "connectivity": "Intel Wi-Fi 6"
     },
-    {
-      "image": "/images/ram-1.jpg",
-      "product_name": "RAM 16GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": "$79.99",
-      "description": "High-speed DDR4 RAM for seamless multitasking. Capacity: 16GB, Speed: 3200MHz, Type: DDR4, CAS Latency: CL16, Voltage: 1.35V.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "DDR4-16GB",
-        "capacity": "16GB",
-        "speed": "3200MHz",
-        "type": "DDR4",
-        "cas_latency": "CL16",
-        "voltage": "1.35V"
+    "individual_rating": 4.8,
+    "average_rating": 4.9,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Top-notch performance and stability.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.2,
-      "average_rating": 4.7,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Excellent performance and value.",
-          "date": "2023-07-19"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Works perfectly with my setup.",
-          "date": "2023-07-21"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Good RAM, but a bit pricey.",
-          "date": "2023-07-26"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Excellent build quality and features.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Worth the price for enthusiasts.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/ram-1.jpg",
+    "product_name": "RAM 16GB DDR4",
+    "category": "ram",
+    "status": "In Stock",
+    "price": "$79.99",
+    "description": "High-speed DDR4 RAM for seamless multitasking. Capacity: 16GB, Speed: 3200MHz, Type: DDR4, CAS Latency: CL16, Voltage: 1.35V.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "DDR4-16GB",
+      "capacity": "16GB",
+      "speed": "3200MHz",
+      "type": "DDR4",
+      "cas_latency": "CL16",
+      "voltage": "1.35V"
     },
-    {
-      "image": "/images/ram-2.jpg",
-      "product_name": "RAM 8GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": "$49.99",
-      "description": "Budget-friendly DDR4 RAM for everyday computing. Capacity: 8GB, Speed: 2666MHz, Type: DDR4, CAS Latency: CL18, Voltage: 1.2V.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "DDR4-8GB",
-        "capacity": "8GB",
-        "speed": "2666MHz",
-        "type": "DDR4",
-        "cas_latency": "CL18",
-        "voltage": "1.2V"
+    "individual_rating": 4.2,
+    "average_rating": 4.7,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Excellent performance and value.",
+        "date": "2023-07-19"
       },
-      "individual_rating": 4.0,
-      "average_rating": 4.2,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Decent RAM for the price.",
-          "date": "2023-07-14"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Good performance for daily tasks.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Reliable and affordable.",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Works perfectly with my setup.",
+        "date": "2023-07-21"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Good RAM, but a bit pricey.",
+        "date": "2023-07-26"
+      }
+    ]
+  },
+  {
+    "image": "/images/ram-2.jpg",
+    "product_name": "RAM 8GB DDR4",
+    "category": "ram",
+    "status": "In Stock",
+    "price": "$49.99",
+    "description": "Budget-friendly DDR4 RAM for everyday computing. Capacity: 8GB, Speed: 2666MHz, Type: DDR4, CAS Latency: CL18, Voltage: 1.2V.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "DDR4-8GB",
+      "capacity": "8GB",
+      "speed": "2666MHz",
+      "type": "DDR4",
+      "cas_latency": "CL18",
+      "voltage": "1.2V"
     },
-    {
-      "image": "/images/ram-3.jpg",
-      "product_name": "RAM 32GB DDR4",
-      "category": "RAM",
-      "status": "In Stock",
-      "price": "$129.99",
-      "description": "High-capacity DDR4 RAM for content creators and professionals. Capacity: 32GB, Speed: 3600MHz, Type: DDR4, CAS Latency: CL16, Voltage: 1.35V.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "DDR4-32GB",
-        "capacity": "32GB",
-        "speed": "3600MHz",
-        "type": "DDR4",
-        "cas_latency": "CL16",
-        "voltage": "1.35V"
+    "individual_rating": 4.0,
+    "average_rating": 4.2,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Decent RAM for the price.",
+        "date": "2023-07-14"
       },
-      "individual_rating": 4.6,
-      "average_rating": 4.8,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Excellent RAM for video editing.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Smooth multitasking experience.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Works as expected, no complaints.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Good performance for daily tasks.",
+        "date": "2023-07-18"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Reliable and affordable.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/ram-3.jpg",
+    "product_name": "RAM 32GB DDR4",
+    "category": "ram",
+    "status": "In Stock",
+    "price": "$129.99",
+    "description": "High-capacity DDR4 RAM for content creators and professionals. Capacity: 32GB, Speed: 3600MHz, Type: DDR4, CAS Latency: CL16, Voltage: 1.35V.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "DDR4-32GB",
+      "capacity": "32GB",
+      "speed": "3600MHz",
+      "type": "DDR4",
+      "cas_latency": "CL16",
+      "voltage": "1.35V"
     },
-    {
-      "image": "/images/power-1.jpg",
-      "product_name": "PSU 650W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": "$79.99",
-      "description": "Reliable 650W power supply for mid-range gaming PCs. 80 Plus Bronze certified for energy efficiency and stable performance.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "PSU650",
-        "wattage": "650W",
-        "certification": "80 Plus Bronze"
+    "individual_rating": 4.6,
+    "average_rating": 4.8,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Excellent RAM for video editing.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.2,
-      "average_rating": 4.4,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Works quietly and keeps my PC running smoothly.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Good value for the wattage.",
-          "date": "2023-07-23"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Sturdy build quality and reliable performance.",
-          "date": "2023-07-25"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Smooth multitasking experience.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Works as expected, no complaints.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/power-1.jpg",
+    "product_name": "PSU 650W",
+    "category": "powersupplyunit",
+    "status": "In Stock",
+    "price": "$79.99",
+    "description": "Reliable 650W power supply for mid-range gaming PCs. 80 Plus Bronze certified for energy efficiency and stable performance.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "PSU650",
+      "wattage": "650W",
+      "certification": "80 Plus Bronze"
     },
-    {
-      "image": "/images/power-2.jpg",
-      "product_name": "PSU 750W",
-      "category": "Power Supply Unit",
-      "status": "In Stock",
-      "price": "$99.99",
-      "description": "High-performance 750W power supply for gaming and overclocking. 80 Plus Gold certified for energy efficiency and stable power delivery.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "PSU750",
-        "wattage": "750W",
-        "certification": "80 Plus Gold"
+    "individual_rating": 4.2,
+    "average_rating": 4.4,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Works quietly and keeps my PC running smoothly.",
+        "date": "2023-07-18"
       },
-      "individual_rating": 4.5,
-      "average_rating": 4.7,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Plenty of power for my high-end GPU.",
-          "date": "2023-07-13"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Efficient and stable power supply.",
-          "date": "2023-07-17"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Handles overclocking without any issues.",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Good value for the wattage.",
+        "date": "2023-07-23"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Sturdy build quality and reliable performance.",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "image": "/images/power-2.jpg",
+    "product_name": "PSU 750W",
+    "category": "powersupplyunit",
+    "status": "In Stock",
+    "price": "$99.99",
+    "description": "High-performance 750W power supply for gaming and overclocking. 80 Plus Gold certified for energy efficiency and stable power delivery.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "PSU750",
+      "wattage": "750W",
+      "certification": "80 Plus Gold"
     },
-    {
-      "image": "/images/power-3.jpg",
-      "product_name": "PSU 850W",
-      "category": "Power Supply Unit",
-      "status": "Out of stock",
-      "price": "$129.99",
-      "description": "High-wattage 850W power supply for enthusiast-level gaming and multi-GPU setups. Fully modular design for easy cable management.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "PSU850",
-        "wattage": "850W",
-        "modularity": "Fully Modular"
+    "individual_rating": 4.5,
+    "average_rating": 4.7,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Plenty of power for my high-end GPU.",
+        "date": "2023-07-13"
       },
-      "individual_rating": 4.8,
-      "average_rating": 4.9,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Plenty of power for my SLI setup.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "High-quality PSU with a sleek design.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Worth the investment for a high-end PC.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Efficient and stable power supply.",
+        "date": "2023-07-17"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Handles overclocking without any issues.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/power-3.jpg",
+    "product_name": "PSU 850W",
+    "category": "powersupplyunit",
+    "status": "Out of stock",
+    "price": "$129.99",
+    "description": "High-wattage 850W power supply for enthusiast-level gaming and multi-GPU setups. Fully modular design for easy cable management.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "PSU850",
+      "wattage": "850W",
+      "modularity": "Fully Modular"
     },
-    {
-      "image": "/images/storage-1.jpg",
-      "product_name": "SSD 500GB",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": "$79.99",
-      "description": "Fast and reliable 500GB SSD for quick system boot times and data access. Suitable for gaming and multimedia tasks.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "SSD500",
-        "capacity": "500GB",
-        "type": "SSD"
+    "individual_rating": 4.8,
+    "average_rating": 4.9,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Plenty of power for my SLI setup.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.2,
-      "average_rating": 4.3,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Speedy performance and easy installation.",
-          "date": "2023-07-19"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Reliable storage for my games and apps.",
-          "date": "2023-07-21"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Good SSD but could be more affordable.",
-          "date": "2023-07-26"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "High-quality PSU with a sleek design.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Worth the investment for a high-end PC.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/storage-1.jpg",
+    "product_name": "SSD 500GB",
+    "category": "storagedevice",
+    "status": "In Stock",
+    "price": "$79.99",
+    "description": "Fast and reliable 500GB SSD for quick system boot times and data access. Suitable for gaming and multimedia tasks.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "SSD500",
+      "capacity": "500GB",
+      "type": "SSD"
     },
-    {
-      "image": "/images/storage-2.jpg",
-      "product_name": "HDD 2TB",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": "$59.99",
-      "description": "Large-capacity 2TB HDD for storing extensive media files and backups. Suitable for budget-conscious users.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "HDD2TB",
-        "capacity": "2TB",
-        "type": "HDD"
+    "individual_rating": 4.2,
+    "average_rating": 4.3,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Speedy performance and easy installation.",
+        "date": "2023-07-19"
       },
-      "individual_rating": 4.0,
-      "average_rating": 4.2,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Plenty of storage for my movies and photos.",
-          "date": "2023-07-14"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Good performance for everyday storage needs.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Reliable and affordable.",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Reliable storage for my games and apps.",
+        "date": "2023-07-21"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Good SSD but could be more affordable.",
+        "date": "2023-07-26"
+      }
+    ]
+  },
+  {
+    "image": "/images/storage-2.jpg",
+    "product_name": "HDD 2TB",
+    "category": "storagedevice",
+    "status": "In Stock",
+    "price": "$59.99",
+    "description": "Large-capacity 2TB HDD for storing extensive media files and backups. Suitable for budget-conscious users.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "HDD2TB",
+      "capacity": "2TB",
+      "type": "HDD"
     },
-    {
-      "image": "/images/storage-3.jpg",
-      "product_name": "SSD 1TB",
-      "category": "Storage Device",
-      "status": "In Stock",
-      "price": "$129.99",
-      "description": "High-speed 1TB SSD for gaming, content creation, and intensive applications. Enjoy faster load times and data transfer.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "SSD1TB",
-        "capacity": "1TB",
-        "type": "SSD"
+    "individual_rating": 4.0,
+    "average_rating": 4.2,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Plenty of storage for my movies and photos.",
+        "date": "2023-07-14"
       },
-      "individual_rating": 4.6,
-      "average_rating": 4.8,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Blazing fast SSD for my gaming rig.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "No more waiting for software to load.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "High-quality SSD but a bit expensive.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Good performance for everyday storage needs.",
+        "date": "2023-07-18"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Reliable and affordable.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/storage-3.jpg",
+    "product_name": "SSD 1TB",
+    "category": "storagedevice",
+    "status": "In Stock",
+    "price": "$129.99",
+    "description": "High-speed 1TB SSD for gaming, content creation, and intensive applications. Enjoy faster load times and data transfer.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "SSD1TB",
+      "capacity": "1TB",
+      "type": "SSD"
     },
-    {
-      "image": "/images/monitor-1.jpg",
-      "product_name": "Gaming Monitor 27\"",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": "$299.99",
-      "description": "27-inch gaming monitor with a high refresh rate and low response time. Enjoy smooth visuals and immersive gaming.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "GM27",
-        "size": "27\"",
-        "refresh_rate": "144Hz",
-        "response_time": "1ms"
+    "individual_rating": 4.6,
+    "average_rating": 4.8,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Blazing fast SSD for my gaming rig.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.4,
-      "average_rating": 4.6,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Excellent monitor for gaming and multimedia.",
-          "date": "2023-07-13"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Smooth gameplay experience.",
-          "date": "2023-07-17"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Great value for the price.",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "No more waiting for software to load.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "High-quality SSD but a bit expensive.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/monitor-1.jpg",
+    "product_name": "Gaming Monitor 27\"",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": "$299.99",
+    "description": "27-inch gaming monitor with a high refresh rate and low response time. Enjoy smooth visuals and immersive gaming.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "GM27",
+      "size": "27\"",
+      "refresh_rate": "144Hz",
+      "response_time": "1ms"
     },
-    {
-      "image": "/images/monitor-2.jpg",
-      "product_name": "Ultrawide Monitor 34\"",
-      "category": "Monitor",
-      "status": "In Stock",
-      "price": "$499.99",
-      "description": "34-inch ultrawide monitor with an immersive curved display. Ideal for multitasking and productivity.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "UM34",
-        "size": "34\"",
-        "aspect_ratio": "21:9",
-        "curvature": "1500R"
+    "individual_rating": 4.4,
+    "average_rating": 4.6,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Excellent monitor for gaming and multimedia.",
+        "date": "2023-07-13"
       },
-      "individual_rating": 4.7,
-      "average_rating": 4.9,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Perfect for working with multiple windows.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "High-quality display with vibrant colors.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "A bit pricey, but worth it for the productivity boost.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Smooth gameplay experience.",
+        "date": "2023-07-17"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Great value for the price.",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/monitor-2.jpg",
+    "product_name": "Ultrawide Monitor 34\"",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": "$499.99",
+    "description": "34-inch ultrawide monitor with an immersive curved display. Ideal for multitasking and productivity.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "UM34",
+      "size": "34\"",
+      "aspect_ratio": "21:9",
+      "curvature": "1500R"
     },
-    {
-      "image": "/images/monitor-3.jpg",
-      "product_name": "4K Monitor 32\"",
-      "category": "Monitor",
-      "status": "Out of stock",
-      "price": "$699.99",
-      "description": "32-inch 4K monitor for stunning visuals and precise color reproduction. Ideal for photo editing and creative work.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "4K32",
-        "size": "32\"",
-        "resolution": "3840x2160",
-        "color_accuracy": "99% sRGB"
+    "individual_rating": 4.7,
+    "average_rating": 4.9,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Perfect for working with multiple windows.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.8,
-      "average_rating": 4.9,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Crystal-clear display for my design projects.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "Best monitor I've ever used.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Expensive but a game-changer for my work.",
-          "date": "2023-07-20"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "High-quality display with vibrant colors.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "A bit pricey, but worth it for the productivity boost.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/monitor-3.jpg",
+    "product_name": "4K Monitor 32\"",
+    "category": "monitor",
+    "status": "Out of stock",
+    "price": "$699.99",
+    "description": "32-inch 4K monitor for stunning visuals and precise color reproduction. Ideal for photo editing and creative work.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "4K32",
+      "size": "32\"",
+      "resolution": "3840x2160",
+      "color_accuracy": "99% sRGB"
     },
-    {
-      "image": "/images/keyboard-1.jpg",
-      "product_name": "Gaming Keyboard",
-      "category": "Others",
-      "status": "In Stock",
-      "price": "$99.99",
-      "description": "Mechanical gaming keyboard with customizable RGB lighting. Enjoy responsive and tactile keystrokes.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "GKB",
-        "keyboard_type": "Mechanical",
-        "backlighting": "RGB",
-        "key_switches": "Cherry MX Red"
+    "individual_rating": 4.8,
+    "average_rating": 4.9,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Crystal-clear display for my design projects.",
+        "date": "2023-07-10"
       },
-      "individual_rating": 4.2,
-      "average_rating": 4.4,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 4,
-          "comment": "Great feel and build quality.",
-          "date": "2023-07-18"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "RGB lighting adds a cool touch.",
-          "date": "2023-07-23"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "Solid gaming keyboard.",
-          "date": "2023-07-25"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "Best monitor I've ever used.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Expensive but a game-changer for my work.",
+        "date": "2023-07-20"
+      }
+    ]
+  },
+  {
+    "image": "/images/keyboard-1.jpg",
+    "product_name": "Gaming Keyboard",
+    "category": "others",
+    "status": "In Stock",
+    "price": "$99.99",
+    "description": "Mechanical gaming keyboard with customizable RGB lighting. Enjoy responsive and tactile keystrokes.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "GKB",
+      "keyboard_type": "Mechanical",
+      "backlighting": "RGB",
+      "key_switches": "Cherry MX Red"
     },
-    {
-      "image": "/images/mouse.webp",
-      "product_name": "Wireless Mouse",
-      "category": "Others",
-      "status": "In Stock",
-      "price": "$49.99",
-      "description": "Wireless mouse with precise tracking and ergonomic design. Ideal for productivity and casual gaming.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "WMouse",
-        "mouse_type": "Wireless",
-        "dpi": "1600",
-        "connectivity": "2.4GHz USB dongle"
+    "individual_rating": 4.2,
+    "average_rating": 4.4,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 4,
+        "comment": "Great feel and build quality.",
+        "date": "2023-07-18"
       },
-      "individual_rating": 4.3,
-      "average_rating": 4.5,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Comfortable grip and smooth tracking.",
-          "date": "2023-07-13"
-        },
-        {
-          "user": "user2",
-          "rating": 4,
-          "comment": "Works well for my daily tasks.",
-          "date": "2023-07-17"
-        },
-        {
-          "user": "user3",
-          "rating": 5,
-          "comment": "No more tangled wires, love it!",
-          "date": "2023-07-22"
-        }
-      ]
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "RGB lighting adds a cool touch.",
+        "date": "2023-07-23"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "Solid gaming keyboard.",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "image": "/images/mouse.webp",
+    "product_name": "Wireless Mouse",
+    "category": "others",
+    "status": "In Stock",
+    "price": "$49.99",
+    "description": "Wireless mouse with precise tracking and ergonomic design. Ideal for productivity and casual gaming.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "WMouse",
+      "mouse_type": "Wireless",
+      "dpi": "1600",
+      "connectivity": "2.4GHz USB dongle"
     },
-    {
-      "image": "/images/hanset.jpg",
-      "product_name": "Gaming Headset",
-      "category": "Others",
-      "status": "In Stock",
-      "price": "$89.99",
-      "description": "Immersive gaming headset with surround sound and noise-cancelling microphone. Enjoy clear communication and audio.",
-      "key_features": {
-        "brand": "Example Brand",
-        "model": "GHeadset",
-        "headset_type": "Over-ear",
-        "sound": "7.1 Surround",
-        "microphone": "Noise-cancelling"
+    "individual_rating": 4.3,
+    "average_rating": 4.5,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Comfortable grip and smooth tracking.",
+        "date": "2023-07-13"
       },
-      "individual_rating": 4.6,
-      "average_rating": 4.8,
-      "reviews": [
-        {
-          "user": "user1",
-          "rating": 5,
-          "comment": "Excellent audio quality and comfortable fit.",
-          "date": "2023-07-10"
-        },
-        {
-          "user": "user2",
-          "rating": 5,
-          "comment": "In-game sounds are crystal clear.",
-          "date": "2023-07-15"
-        },
-        {
-          "user": "user3",
-          "rating": 4,
-          "comment": "Great value for a gaming headset.",
-          "date": "2023-07-20"
-        }
-      ]
-    }
-  ]
-}
+      {
+        "user": "user2",
+        "rating": 4,
+        "comment": "Works well for my daily tasks.",
+        "date": "2023-07-17"
+      },
+      {
+        "user": "user3",
+        "rating": 5,
+        "comment": "No more tangled wires, love it!",
+        "date": "2023-07-22"
+      }
+    ]
+  },
+  {
+    "image": "/images/hanset.jpg",
+    "product_name": "Gaming Headset",
+    "category": "others",
+    "status": "In Stock",
+    "price": "$89.99",
+    "description": "Immersive gaming headset with surround sound and noise-cancelling microphone. Enjoy clear communication and audio.",
+    "key_features": {
+      "brand": "Example Brand",
+      "model": "GHeadset",
+      "headset_type": "Over-ear",
+      "sound": "7.1 Surround",
+      "microphone": "Noise-cancelling"
+    },
+    "individual_rating": 4.6,
+    "average_rating": 4.8,
+    "reviews": [
+      {
+        "user": "user1",
+        "rating": 5,
+        "comment": "Excellent audio quality and comfortable fit.",
+        "date": "2023-07-10"
+      },
+      {
+        "user": "user2",
+        "rating": 5,
+        "comment": "In-game sounds are crystal clear.",
+        "date": "2023-07-15"
+      },
+      {
+        "user": "user3",
+        "rating": 4,
+        "comment": "Great value for a gaming headset.",
+        "date": "2023-07-20"
+      }
+    ]
+  }
+]

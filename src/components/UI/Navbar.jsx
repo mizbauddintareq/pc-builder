@@ -13,10 +13,10 @@ const Submenu = () => {
         <Link href="catagories/ram">RAM</Link>
       </li>
       <li>
-        <Link href="catagories/powerSupplyUnit">Power Supply Unit</Link>
+        <Link href="catagories/powersupplyunit">Power Supply Unit</Link>
       </li>
       <li>
-        <Link href="catagories/storageDevice">Storage Device</Link>
+        <Link href="catagories/storagedevice">Storage Device</Link>
       </li>
       <li>
         <Link href="catagories/monitor">Monitor</Link>
