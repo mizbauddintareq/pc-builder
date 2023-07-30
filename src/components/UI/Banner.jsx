@@ -1,9 +1,9 @@
 const Banner = () => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="/images/stock/photo-1635805737707-575885ab0820.jpg"
+          src="https://www.startech.com.bd/image/cache/catalog/processor/amd/amd-ryzen-7-5700x/amd-ryzen-7-5700x-01-500x500.jpg"
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Submenu = () => {
   return (
-    <ul className="p-1">
+    <ul className="p-1 z-50">
       <li>
         <Link href="catagories/processor">Processor</Link>
       </li>
