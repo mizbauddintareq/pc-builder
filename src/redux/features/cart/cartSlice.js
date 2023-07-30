@@ -21,8 +21,9 @@ export const cartSlice = createSlice({
       }
     },
     removeItem: (state, action) => {
+      const categoryToRemove = action.payload;
       state.components = state.components.filter(
-        (product) => product._id.toString() !== action.payload._id.toString()
+        (item) => item.category !== categoryToRemove
       );
     },
   },
