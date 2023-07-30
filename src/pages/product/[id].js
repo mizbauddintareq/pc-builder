@@ -1,8 +1,20 @@
 const ProductDetails = ({ data }) => {
-  console.log(data);
   return (
-    <div>
-      <h1>This is product details page</h1>
+    <div className="card lg:card-side bg-base-100 shadow-xl">
+      <figure>
+        <img src={data?.image} alt="Album" />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">{data?.product_name}</h2>
+        <p>{data?.category}</p>
+        <p>{data?.status}</p>
+        <p>{data?.price}</p>
+        <p>{data?.average_rating}</p>
+        <p>{data?.description}</p>
+        <p>{data?.individual_rating}</p>
+        {/* <p>{data?.key_features}</p> */}
+        {/* <p>{data?.reviews}</p> */}
+      </div>
     </div>
   );
 };
