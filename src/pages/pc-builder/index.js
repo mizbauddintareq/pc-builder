@@ -3,7 +3,13 @@ import { useSelector } from "react-redux";
 
 const PcBuilderPage = ({ data }) => {
   const { components } = useSelector((state) => state.product);
-  console.log(components, "from builder");
+
+  const getCategoryStatus = (categoryName) => {
+    const categoryExists = components.some(
+      (item) => item.category === categoryName
+    );
+    return categoryExists ? "Available" : "Not Available";
+  };
 
   return (
     <div>
@@ -12,6 +18,7 @@ const PcBuilderPage = ({ data }) => {
           <thead>
             <tr>
               <th>Category Name</th>
+              <th>Status</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -19,6 +26,7 @@ const PcBuilderPage = ({ data }) => {
             {data.map((category, idx) => (
               <tr key={idx}>
                 <td>{category?.category}</td>
+                <td>{getCategoryStatus(category?.category)}</td>
                 <td>
                   <Link href={`/pc-builder/${category?.category}`}>
                     <button className="btn btn-xs">Tiny</button>

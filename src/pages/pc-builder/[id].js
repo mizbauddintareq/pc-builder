@@ -1,11 +1,14 @@
 import { addItem } from "@/redux/features/cart/cartSlice";
+import { useRouter } from "next/router"; // Import the useRouter hook
 import { useDispatch } from "react-redux";
 
 const BuildProductPage = ({ data }) => {
   const dispatch = useDispatch();
+  const router = useRouter(); // Initialize the useRouter hook
 
   const handleAddToBuilder = (product) => {
     dispatch(addItem(product));
+    router.push("/pc-builder");
   };
 
   return (
