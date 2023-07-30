@@ -12,7 +12,7 @@ export default CategoryPage;
 export const getStaticPaths = async () => {
   const res = await fetch(`http://localhost:5000/catagories`);
   const data = await res.json();
-
+  console.log(data);
   const paths = data?.data?.map((product) => ({
     params: {
       categoryId: product.category,

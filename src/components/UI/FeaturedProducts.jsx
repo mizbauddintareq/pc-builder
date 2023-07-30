@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const FeaturedProducts = ({ products }) => {
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {products?.map((product, idx) => (
         <div key={idx} className="card  shadow-xl">
           <figure>
