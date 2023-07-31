@@ -21,7 +21,7 @@ HomePage.getLayout = function getLayout(page) {
 
 // FeaturedProducts
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://pc-builder-server-pi.vercel.app/products");
   const data = await res.json();
 
   const shuffledProducts = data?.data.sort(() => Math.random() - 0.5);

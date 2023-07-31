@@ -22,7 +22,7 @@ const ProductDetails = ({ data }) => {
 export default ProductDetails;
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`http://localhost:5000/products`);
+  const res = await fetch(`https://pc-builder-server-pi.vercel.app/products`);
   const data = await res.json();
 
   const paths = data?.data?.map((product) => ({
@@ -38,7 +38,9 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const res = await fetch(`http://localhost:5000/products/${params.id}`);
+  const res = await fetch(
+    `https://pc-builder-server-pi.vercel.app/products/${params.id}`
+  );
   const data = await res.json();
 
   return {

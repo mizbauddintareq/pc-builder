@@ -44,7 +44,9 @@ const BuildProductPage = ({ data }) => {
 export default BuildProductPage;
 
 export const getServerSideProps = async ({ params }) => {
-  const res = await fetch(`http://localhost:5000/catagories/${params.id}`);
+  const res = await fetch(
+    `https://pc-builder-server-pi.vercel.app/catagories/${params.id}`
+  );
   const data = await res.json();
 
   return {

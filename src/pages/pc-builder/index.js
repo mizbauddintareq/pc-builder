@@ -60,7 +60,9 @@ const PcBuilderPage = ({ data }) => {
 export default PcBuilderPage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`http://localhost:5000/allcategories`);
+  const res = await fetch(
+    `https://pc-builder-server-pi.vercel.app/allcategories`
+  );
   const data = await res.json();
 
   return {
