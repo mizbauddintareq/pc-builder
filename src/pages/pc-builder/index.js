@@ -31,6 +31,10 @@ const PcBuilderPage = ({ data }) => {
     }
   });
 
+  // Count the number of selected products under the 'Selected Product' column
+  const selectedProductCount =
+    Object.values(categoryProductMap).filter(Boolean).length;
+
   return (
     <div>
       <div className="overflow-x-auto">
@@ -75,6 +79,18 @@ const PcBuilderPage = ({ data }) => {
             ))}
           </tbody>
         </table>
+      </div>
+
+      <div className="flex justify-center">
+        {/* Enable the button only when selectedProductCount is greater than 5 */}
+        <button
+          className="btn btn-primary"
+          disabled={selectedProductCount <= 5}
+        >
+          {selectedProductCount <= 5
+            ? "Please add more products"
+            : "Complete Order"}
+        </button>
       </div>
     </div>
   );
