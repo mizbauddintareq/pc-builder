@@ -11,7 +11,7 @@ export const authOptions = {
     // ...add more providers here
   ],
   pages: {
-    signIn: "/login",
+    signIn: "https://pc-builder-frontend-tau.vercel.app/login",
   },
 };
 

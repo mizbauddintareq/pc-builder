@@ -12,12 +12,12 @@ export const cartSlice = createSlice({
     addItem: (state, action) => {
       console.log(state);
       const exist = state.components?.find(
-        (item) => item.category === action.payload.category
+        (item) => item.category && item.product_name === action.payload.category
       );
       if (!exist) {
         state.components.push(action.payload);
       } else {
-        toast.error("One item already added for this category.");
+        toast.error("Already selected this product.");
       }
     },
     removeItem: (state, action) => {

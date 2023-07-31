@@ -1,22 +1,35 @@
 import { removeItem } from "@/redux/features/cart/cartSlice";
 import Link from "next/link";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const PcBuilderPage = ({ data }) => {
   const { components } = useSelector((state) => state.product);
-
   const dispatch = useDispatch();
+  const [selectedProducts, setSelectedProducts] = useState({});
 
-  const getCategoryStatus = (categoryName) => {
-    const categoryExists = components.some(
-      (item) => item.category === categoryName
-    );
-    return categoryExists ? "Available" : "Not Available";
+  const handleSelectProduct = (category, productName) => {
+    setSelectedProducts((prevSelected) => ({
+      ...prevSelected,
+      [category]: productName,
+    }));
   };
 
   const handleRemoveBuilder = (category) => {
+    setSelectedProducts((prevSelected) => ({
+      ...prevSelected,
+      [category]: null,
+    }));
     dispatch(removeItem(category));
   };
+
+  // Map the selected product names outside the component
+  const categoryProductMap = {};
+  components.forEach((component) => {
+    if (component.category && component.product_name) {
+      categoryProductMap[component.category] = component.product_name;
+    }
+  });
 
   return (
     <div>
@@ -25,7 +38,7 @@ const PcBuilderPage = ({ data }) => {
           <thead>
             <tr>
               <th>Category Name</th>
-              <th>Status</th>
+              <th>Selected Product</th>
               <th>Action</th>
               <th>Delete</th>
             </tr>
@@ -33,17 +46,27 @@ const PcBuilderPage = ({ data }) => {
           <tbody>
             {data.map((category, idx) => (
               <tr key={idx}>
-                <td>{category?.category}</td>
-                <td>{getCategoryStatus(category?.category)}</td>
+                <td>{category.category}</td>
+                <td>{categoryProductMap[category.category] || "N/A"}</td>
                 <td>
-                  <Link href={`/pc-builder/${category?.category}`}>
-                    <button className="btn btn-xs">Chose</button>
+                  <Link href={`/pc-builder/${category.category}`}>
+                    <button
+                      className="btn btn-xs"
+                      onClick={() =>
+                        handleSelectProduct(
+                          category.category,
+                          category.product_name
+                        )
+                      }
+                    >
+                      Choose
+                    </button>
                   </Link>
                 </td>
                 <td>
                   <button
                     className="btn btn-xs"
-                    onClick={() => handleRemoveBuilder(category?.category)}
+                    onClick={() => handleRemoveBuilder(category.category)}
                   >
                     DELETE
                   </button>

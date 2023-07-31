@@ -18,7 +18,7 @@ const FeaturedProducts = ({ products }) => {
 
             <div className="card-actions justify-end">
               <Link href={`/product/${product?._id}`}>
-                <button className="btn btn-primary">readmore</button>
+                <button className="btn btn-primary">Read More</button>
               </Link>
             </div>
           </div>
