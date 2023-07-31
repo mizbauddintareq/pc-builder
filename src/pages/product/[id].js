@@ -5,7 +5,7 @@ const ProductDetails = ({ data }) => {
         <img src={data?.image} alt="Album" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{data?.product_name}</h2>
+        <h3 className="card-title">{data?.product_name}</h3>
         <p>{data?.category}</p>
         <p>{data?.status}</p>
         <p>{data?.price}</p>
