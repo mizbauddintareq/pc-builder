@@ -1,9 +1,9 @@
-import Banner from "@/components/UI/Banner";
-import FeaturedCategory from "@/components/UI/FeaturedCategory";
-import FeaturedProducts from "@/components/UI/featuredProducts";
-import RootLayout from "@/components/layouts/RootLayout";
+import Banner from "../components/UI/Banner";
+import FeaturedCategory from "../components/UI/FeaturedCategory";
+import FeaturedProducts from "../components/UI/FeaturedProducts";
+import RootLayout from "../components/layouts/RootLayout";
 
-const HomePage = ({ products, data }) => {
+const HomePage = ({ products }) => {
   return (
     <>
       <Banner />
@@ -30,7 +30,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       products: randomProducts,
-      data: data.data,
+      // data: data.data,
     },
   };
 };
